@@ -4,7 +4,8 @@ h1 {
     font-size: 50px;
     text-align: center;
     background-color: rgb(60, 60, 60);
-    background
+    padding-top: 10px;
+    padding-bottom: 10px;
 
 }
 
@@ -51,7 +52,7 @@ div.button {
   div.gallery {
     margin: 5px;
     border: 1px solid #ccc;
-    float: none
+    float: left;
   }
   
   div.gallery:hover {
@@ -59,7 +60,7 @@ div.button {
   }
   
   div.gallery img {
-    width: 50%;
+    width: 600px;
     height: auto;
     padding-top: 10px;
   }
