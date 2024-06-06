@@ -35,6 +35,8 @@ body {
 .button {
     background-color:  rgb(60, 60, 60);
     border: none;
+    min-width: 200px;
+    max-width: 200px;
     color: white;
     padding: 15px 32px;
     text-align: center;
