@@ -45,27 +45,28 @@ div.button {
     display: inline-block;
     font-size: 16px;
     font-family: 'Trebuchet MS';
-  } 
+}
+  
+div.button:hover {
+ background-color: #777;}
 
 
-
-  div.gallery {
+div.gallery {
     margin: 5px;
     border: 1px solid #ccc;
     float: left;
-  }
   
-  div.gallery:hover {
+div.gallery:hover {
     border: 1px solid #777;
   }
   
-  div.gallery img {
+div.gallery img {
     width: 600px;
     height: auto;
     padding-top: 10px;
   }
   
-  div.desc {
+div.desc {
     color: white;
     font-family: 'Trebuchet MS';
     font-weight: bold;
